@@ -24,6 +24,3 @@ jobs:
       - name: Build
         working-directory: client
         run: npm run build
-
-      - name: Falha controlada para teste da skill
-        run: exit 1
